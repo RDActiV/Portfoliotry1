@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Great Vibes', cursive;
+  font-size: 6.25rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+}
+h2{
+  font-family: 'Questrial', sans-serif;
+  font-size: 2rem;
+  margin-top: 80px;
+
+}
+h3{
+  color:#11999E;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+
+  border-color: grey;
+  border-width: 5px;
+  width:5%;
+
+}
+.profile{
+  width: 25%;
+  margin: 100px auto 100px auto;
+}
+.my-image{
+  width: 25rem;
+  height: auto;
+}
+.briefing{
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+.top_container{
+  background-color: #e4f9f5;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  position: relative;
+  padding-top: 105px;
+
+
+}
+.computerrimg{
+  width: 25%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+.chilliesimg{
+  width: 25%;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.middle_container{
+  background-image: url('Lamborghini.png');
+background-repeat: repeat-x;
+background-position: top left;
+background-size: contain;
+  animation: mymove 10s infinite;
+}
+@-webkit-keyframes mymove {
+  30% {background-position: center;}
+}
+
+@keyframes mymove {
+  30% {background-position: center;}
+}
+.bottom_container{
+  color: #eaf6f6;
+  background-color:#66BFBF;
+  margin: 0;
+  height: 100px;
+  padding-top: 50px;
+
+}
+.cntme{
+  margin: 20px auto 40px auto;
+}
+.underline1{
+  text-decoration: underline blue;
+
+}
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.btn{
+  color: white;
+  background-color: #11999E;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 1.5rem;
+ border-radius: 8px;
+  transition-duration: 0.4s;
+}
+.btn:hover {
+  background-color: white;
+  color: #11999e;
+  border: 2px solid #11999E;
+}
+.footer-link{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #11999E;
+}
+.contact-me{
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
